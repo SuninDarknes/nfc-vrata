@@ -6,7 +6,7 @@ $db = new MySQLDB();
 
 
 if (isset($_SESSION['korisnik'])) {
-    header('Location: index.php');
+    header('Location: pocetna.php');
     exit;
 }
 
@@ -26,8 +26,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 $_SESSION['korisnik'] = $korisnik;
 
-                header('Location: index.php');
+
+                if(isset($_SESSION['previousURL'])){
+                    header('Location: ' . $_SESSION['previousURL']);
                 exit;
+                }else {
+                    header('Location: pocetna.php');
+                    exit;
+                }
             } else {
                 $_SESSION["neuspjesna_prijava"] = "Unjeli ste krive korisničke podatke!";
                 header('Location: prijava.php');
