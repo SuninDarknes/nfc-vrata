@@ -1,0 +1,677 @@
+[20-Mar-2024 15:08:03 UTC] PHP Warning:  include_once(../auth.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/kontrolaulaza/index.php on line 2
+[20-Mar-2024 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../auth.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/kontrolaulaza/index.php on line 2
+[20-Mar-2024 18:34:27 Europe/Zagreb] PHP Warning:  Undefined array key "ime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 18
+[20-Mar-2024 18:34:27 Europe/Zagreb] PHP Warning:  Undefined array key "prezime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 19
+[20-Mar-2024 18:34:38 Europe/Zagreb] PHP Warning:  Undefined array key "ime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 18
+[20-Mar-2024 18:34:38 Europe/Zagreb] PHP Warning:  Undefined array key "prezime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 19
+[20-Mar-2024 18:34:46 Europe/Zagreb] PHP Warning:  Undefined array key "ime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 18
+[20-Mar-2024 18:34:46 Europe/Zagreb] PHP Warning:  Undefined array key "prezime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 19
+[20-Mar-2024 18:35:03 Europe/Zagreb] PHP Warning:  Undefined array key "ime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 18
+[20-Mar-2024 18:35:03 Europe/Zagreb] PHP Warning:  Undefined array key "prezime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 19
+[20-Mar-2024 18:35:14 Europe/Zagreb] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':email' at line 1 in /home/tsckeu/public_html/kontrolaulaza/prijava.php:11
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/prijava.php(11): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 11
+[20-Mar-2024 18:35:43 Europe/Zagreb] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::bindParam() in /home/tsckeu/public_html/kontrolaulaza/prijava.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 11
+[20-Mar-2024 18:35:54 Europe/Zagreb] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::bindParam() in /home/tsckeu/public_html/kontrolaulaza/prijava.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 11
+[20-Mar-2024 18:35:56 Europe/Zagreb] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::bindParam() in /home/tsckeu/public_html/kontrolaulaza/prijava.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 11
+[20-Mar-2024 18:36:05 Europe/Zagreb] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::bindParam() in /home/tsckeu/public_html/kontrolaulaza/prijava.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 11
+[20-Mar-2024 18:36:50 Europe/Zagreb] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::bindParam() in /home/tsckeu/public_html/kontrolaulaza/prijava.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 11
+[20-Mar-2024 18:36:52 Europe/Zagreb] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::bindParam() in /home/tsckeu/public_html/kontrolaulaza/prijava.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 11
+[20-Mar-2024 18:37:01 Europe/Zagreb] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_stmt::fetch() expects exactly 0 arguments, 1 given in /home/tsckeu/public_html/kontrolaulaza/prijava.php:17
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/prijava.php(17): mysqli_stmt->fetch(2)
+#1 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 18:37:41 Europe/Zagreb] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home/tsckeu/public_html/kontrolaulaza/prijava.php:15
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/prijava.php(15): mysqli_stmt->bind_result(NULL)
+#1 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 15
+[20-Mar-2024 18:45:01 Europe/Zagreb] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/tsckeu/public_html/kontrolaulaza/prijava.php:15
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/prijava.php(15): mysqli->query('SELECT lozinka ...')
+#1 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 15
+[20-Mar-2024 18:45:04 Europe/Zagreb] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/tsckeu/public_html/kontrolaulaza/prijava.php:15
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/prijava.php(15): mysqli->query('SELECT lozinka ...')
+#1 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 15
+[20-Mar-2024 18:45:58 Europe/Zagreb] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/tsckeu/public_html/kontrolaulaza/prijava.php:15
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/prijava.php(15): mysqli->query('SELECT lozinka ...')
+#1 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 15
+[20-Mar-2024 18:46:23 Europe/Zagreb] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/tsckeu/public_html/kontrolaulaza/prijava.php:15
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/prijava.php(15): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 15
+[20-Mar-2024 18:46:50 Europe/Zagreb] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/tsckeu/public_html/kontrolaulaza/prijava.php:15
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/prijava.php(15): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 15
+[20-Mar-2024 17:53:17 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 10
+[20-Mar-2024 17:53:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/kontrolaulaza/prijava.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 10
+[20-Mar-2024 17:55:47 UTC] PHP Warning:  Undefined array key "lozinka" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 18
+[20-Mar-2024 17:55:47 UTC] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 18
+[20-Mar-2024 18:00:00 UTC] PHP Warning:  Undefined array key 4 in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 14
+[20-Mar-2024 18:00:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 18
+[20-Mar-2024 18:00:04 UTC] PHP Warning:  Undefined array key 4 in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 14
+[20-Mar-2024 18:00:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 18
+[20-Mar-2024 18:02:26 UTC] PHP Warning:  Undefined array key 4 in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 14
+[20-Mar-2024 18:02:26 UTC] PHP Warning:  Undefined variable $rezultat in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 16
+[20-Mar-2024 18:02:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 16
+[20-Mar-2024 18:02:30 UTC] PHP Warning:  Undefined array key 4 in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 14
+[20-Mar-2024 18:02:30 UTC] PHP Warning:  Undefined variable $rezultat in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 16
+[20-Mar-2024 18:02:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 16
+[20-Mar-2024 18:02:34 UTC] PHP Warning:  Undefined array key 4 in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 14
+[20-Mar-2024 18:02:34 UTC] PHP Warning:  Undefined variable $rezultat in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 16
+[20-Mar-2024 18:02:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 16
+[20-Mar-2024 18:02:41 UTC] PHP Warning:  Undefined array key 4 in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 14
+[20-Mar-2024 18:02:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 18:03:09 UTC] PHP Warning:  Undefined array key 4 in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 14
+[20-Mar-2024 18:03:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 18:04:26 UTC] PHP Warning:  Undefined array key 4 in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 14
+[20-Mar-2024 18:04:31 UTC] PHP Warning:  Undefined array key 4 in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 14
+[20-Mar-2024 18:05:03 UTC] PHP Warning:  Array to string conversion in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 16
+[20-Mar-2024 18:05:20 UTC] PHP Warning:  Undefined array key 4 in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 16
+[20-Mar-2024 18:05:34 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 16
+[20-Mar-2024 18:05:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 16
+[20-Mar-2024 18:05:48 UTC] PHP Warning:  Array to string conversion in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 16
+[20-Mar-2024 18:09:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 21
+[20-Mar-2024 18:15:20 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/kontrolaulaza/index.php on line 90
+[20-Mar-2024 18:15:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/tsckeu/public_html/kontrolaulaza/index.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/index.php on line 90
+[20-Mar-2024 18:21:10 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/kontrolaulaza/index.php on line 99
+[20-Mar-2024 18:21:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/tsckeu/public_html/kontrolaulaza/index.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/index.php on line 99
+[20-Mar-2024 18:21:13 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/kontrolaulaza/index.php on line 99
+[20-Mar-2024 18:21:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/tsckeu/public_html/kontrolaulaza/index.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/index.php on line 99
+[20-Mar-2024 18:22:30 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/index.php on line 99
+[20-Mar-2024 18:22:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/index.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/index.php on line 99
+[20-Mar-2024 18:33:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/index.php:8) in /home/tsckeu/public_html/kontrolaulaza/index.php on line 32
+[20-Mar-2024 18:34:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/index.php:8) in /home/tsckeu/public_html/kontrolaulaza/index.php on line 31
+[20-Mar-2024 18:34:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/index.php:8) in /home/tsckeu/public_html/kontrolaulaza/index.php on line 31
+[20-Mar-2024 18:35:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/index.php:8) in /home/tsckeu/public_html/kontrolaulaza/index.php on line 31
+[20-Mar-2024 18:36:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/index.php:33) in /home/tsckeu/public_html/kontrolaulaza/index.php on line 34
+[20-Mar-2024 18:39:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/index.php:8) in /home/tsckeu/public_html/kontrolaulaza/index.php on line 31
+[20-Mar-2024 19:11:24 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:11:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:14:28 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:14:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:14:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/prijava.php:17) in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 33
+[20-Mar-2024 19:14:57 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:14:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:14:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/prijava.php:17) in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 33
+[20-Mar-2024 19:15:10 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:15:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:15:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/prijava.php:17) in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 33
+[20-Mar-2024 19:15:43 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:15:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:15:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/prijava.php:17) in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 33
+[20-Mar-2024 19:15:52 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:15:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:15:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/prijava.php:17) in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 33
+[20-Mar-2024 19:16:22 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:16:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:16:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/prijava.php:17) in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 33
+[20-Mar-2024 19:16:25 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:16:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:16:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/prijava.php:17) in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 33
+[20-Mar-2024 19:16:30 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:16:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:16:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/prijava.php:17) in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 33
+[20-Mar-2024 19:16:39 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:16:39 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:16:41 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:16:41 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:16:54 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:16:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:16:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/prijava.php:17) in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 33
+[20-Mar-2024 19:17:14 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:17:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:17:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/prijava.php:17) in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 33
+[20-Mar-2024 19:17:19 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:17:19 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:17:24 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:17:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 17
+[20-Mar-2024 19:17:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/prijava.php:17) in /home/tsckeu/public_html/kontrolaulaza/prijava.php on line 33
+[20-Mar-2024 19:18:13 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:18:13 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:18:17 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:18:17 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:18:52 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:18:52 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:19:19 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:19:19 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:19:23 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:19:23 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/index.php on line 100
+[20-Mar-2024 19:23:59 UTC] PHP Warning:  Undefined array key "ime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 13
+[20-Mar-2024 19:23:59 UTC] PHP Warning:  Undefined array key "prezime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 14
+[20-Mar-2024 19:23:59 UTC] PHP Warning:  Undefined array key "mail" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 15
+[20-Mar-2024 19:23:59 UTC] PHP Warning:  Undefined array key "lozinka" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 16
+[20-Mar-2024 19:23:59 UTC] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsckeu/public_html/kontrolaulaza/index.php on line 16
+[20-Mar-2024 19:23:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ime' cannot be null in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:101
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(101): PDOStatement->execute(Array)
+#1 /home/tsckeu/public_html/kontrolaulaza/index.php(23): MySQLDB->insert('INSERT INTO pri...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 101
+[20-Mar-2024 19:27:38 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 43
+[20-Mar-2024 20:06:41 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 58
+[20-Mar-2024 20:06:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 58
+[20-Mar-2024 20:06:41 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 58
+[20-Mar-2024 20:06:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 58
+[20-Mar-2024 20:06:41 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 59
+[20-Mar-2024 20:06:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 59
+[20-Mar-2024 20:06:41 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 63
+[20-Mar-2024 20:06:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 63
+[20-Mar-2024 20:06:42 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 58
+[20-Mar-2024 20:06:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 58
+[20-Mar-2024 20:06:42 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 58
+[20-Mar-2024 20:06:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 58
+[20-Mar-2024 20:06:42 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 59
+[20-Mar-2024 20:06:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 59
+[20-Mar-2024 20:06:42 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 63
+[20-Mar-2024 20:06:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 63
+[20-Mar-2024 20:08:27 UTC] PHP Warning:  Undefined array key "ime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 13
+[20-Mar-2024 20:08:27 UTC] PHP Warning:  Undefined array key "prezime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 14
+[20-Mar-2024 20:08:27 UTC] PHP Warning:  Undefined array key "mail" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 15
+[20-Mar-2024 20:08:27 UTC] PHP Warning:  Undefined array key "lozinka" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 16
+[20-Mar-2024 20:08:27 UTC] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsckeu/public_html/kontrolaulaza/index.php on line 16
+[20-Mar-2024 20:08:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ime' cannot be null in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:101
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(101): PDOStatement->execute(Array)
+#1 /home/tsckeu/public_html/kontrolaulaza/index.php(23): MySQLDB->insert('INSERT INTO pri...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 101
+[20-Mar-2024 20:09:45 UTC] PHP Warning:  Undefined array key "ime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 13
+[20-Mar-2024 20:09:45 UTC] PHP Warning:  Undefined array key "prezime" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 14
+[20-Mar-2024 20:09:45 UTC] PHP Warning:  Undefined array key "mail" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 15
+[20-Mar-2024 20:09:45 UTC] PHP Warning:  Undefined array key "lozinka" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 16
+[20-Mar-2024 20:09:45 UTC] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsckeu/public_html/kontrolaulaza/index.php on line 16
+[20-Mar-2024 20:09:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ime' cannot be null in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:101
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(101): PDOStatement->execute(Array)
+#1 /home/tsckeu/public_html/kontrolaulaza/index.php(23): MySQLDB->insert('INSERT INTO pri...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 101
+[20-Mar-2024 20:55:37 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 78
+[20-Mar-2024 20:55:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 78
+[20-Mar-2024 20:55:37 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 78
+[20-Mar-2024 20:55:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 78
+[20-Mar-2024 20:55:37 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 79
+[20-Mar-2024 20:55:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 79
+[20-Mar-2024 20:55:59 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 7
+[20-Mar-2024 20:55:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 7
+[20-Mar-2024 20:55:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/index.php:7) in /home/tsckeu/public_html/kontrolaulaza/index.php on line 8
+[20-Mar-2024 20:56:19 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:19 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:19 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:56:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:56:25 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 7
+[20-Mar-2024 20:56:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 7
+[20-Mar-2024 20:56:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/index.php:7) in /home/tsckeu/public_html/kontrolaulaza/index.php on line 8
+[20-Mar-2024 20:56:47 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:47 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:47 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:56:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:56:59 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:59 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:56:59 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:57:04 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:04 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:04 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:57:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:57:31 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:31 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:31 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:57:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:57:45 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:57:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:57:45 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:57:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:57:45 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 83
+[20-Mar-2024 20:57:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 83
+[20-Mar-2024 20:57:49 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:49 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 81
+[20-Mar-2024 20:57:49 UTC] PHP Warning:  Undefined array key "korisnik" in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 20:57:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/index.php on line 82
+[20-Mar-2024 21:00:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 23
+[20-Mar-2024 21:00:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 23
+[20-Mar-2024 21:00:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 23
+[20-Mar-2024 21:00:30 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:30 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 22
+[20-Mar-2024 21:00:30 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 23
+[20-Mar-2024 21:00:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 23
+[20-Mar-2024 21:00:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/korisnik.php on line 23
+[21-Mar-2024 09:29:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/tsckeu/public_html/kontrolaulaza/pocetna.php on line 39
+[21-Mar-2024 09:29:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/pocetna.php on line 39
+[21-Mar-2024 09:29:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/pocetna.php on line 39
+[21-Mar-2024 09:29:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/tsckeu/public_html/kontrolaulaza/pocetna.php on line 39
+[21-Mar-2024 09:29:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/pocetna.php on line 39
+[21-Mar-2024 09:29:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/pocetna.php on line 39
+[21-Mar-2024 09:29:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/tsckeu/public_html/kontrolaulaza/pocetna.php on line 40
+[21-Mar-2024 09:29:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/pocetna.php on line 40
+[21-Mar-2024 09:29:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/kontrolaulaza/pocetna.php on line 40
+[21-Mar-2024 09:37:03 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/tsckeu/public_html/kontrolaulaza/odjava.php on line 3
+[21-Mar-2024 09:37:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/kontrolaulaza/odjava.php:3) in /home/tsckeu/public_html/kontrolaulaza/odjava.php on line 5
+[21-Mar-2024 14:23:40 UTC] PHP Warning:  Undefined array key "ID" in /home/tsckeu/public_html/kontrolaulaza/admin.php on line 195
+[21-Mar-2024 14:23:40 UTC] PHP Warning:  Undefined array key "ID" in /home/tsckeu/public_html/kontrolaulaza/admin.php on line 195
+[21-Mar-2024 14:23:40 UTC] PHP Warning:  Undefined array key "ID" in /home/tsckeu/public_html/kontrolaulaza/admin.php on line 195
+[21-Mar-2024 14:23:40 UTC] PHP Warning:  Undefined array key "ID" in /home/tsckeu/public_html/kontrolaulaza/admin.php on line 195
+[21-Mar-2024 14:23:40 UTC] PHP Warning:  Undefined array key "ID" in /home/tsckeu/public_html/kontrolaulaza/admin.php on line 195
+[21-Mar-2024 14:23:40 UTC] PHP Warning:  Undefined array key "ID" in /home/tsckeu/public_html/kontrolaulaza/admin.php on line 195
+[21-Mar-2024 14:23:40 UTC] PHP Warning:  Undefined array key "ID" in /home/tsckeu/public_html/kontrolaulaza/admin.php on line 195
+[21-Mar-2024 14:23:40 UTC] PHP Warning:  Undefined array key "ID" in /home/tsckeu/public_html/kontrolaulaza/admin.php on line 195
+[21-Mar-2024 14:23:40 UTC] PHP Warning:  Undefined array key "ID" in /home/tsckeu/public_html/kontrolaulaza/admin.php on line 195
+[21-Mar-2024 14:23:40 UTC] PHP Warning:  Undefined array key "ID" in /home/tsckeu/public_html/kontrolaulaza/admin.php on line 195
+[21-Mar-2024 15:11:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'ID' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT ID, ime ...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT ID, ime ...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:11:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'ID' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT ID, ime ...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT ID, ime ...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:11:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'ID' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT ID, ime ...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT ID, ime ...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:12:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, ime ...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, ime ...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:12:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, ime ...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, ime ...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:12:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, nazi...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, nazi...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:13:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, nazi...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, nazi...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:13:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, nazi...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, nazi...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:13:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, nazi...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, nazi...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:14:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, nazi...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, nazi...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:16:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, nazi...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, nazi...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:16:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, nazi...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, nazi...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:16:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, nazi...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, nazi...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:17:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, nazi...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, nazi...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:17:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT id, nazi...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT id, nazi...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:21:55 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 57
+[21-Mar-2024 15:21:55 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 57
+[21-Mar-2024 15:21:57 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 57
+[21-Mar-2024 15:21:57 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 57
+[21-Mar-2024 15:22:19 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:22:19 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:22:21 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:22:21 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:22:34 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:22:34 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:22:48 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:22:48 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:22:50 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:22:50 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:23:04 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:23:04 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:23:10 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:23:10 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:23:22 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:23:22 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:28:51 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:28:51 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:28:54 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:28:54 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:32:35 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:32:35 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 32
+[21-Mar-2024 15:34:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't2.id' in 'where clause' in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT * FROM p...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(48): MySQLDB->select('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:34:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:50
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(50): PDOStatement->execute(Array)
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(48): MySQLDB->select('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 50
+[21-Mar-2024 15:35:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't1 LEFT JOIN pristup_dozvole t2 ON t1.id = t2.prostorija AND t2.korisnik = ? WHE' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT t1.id, t...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT t1.id, t...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:35:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't1 LEFT JOIN pristup_dozvole t2 ON t1.id = t2.prostorija AND t2.korisnik = ? WHE' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT t1.id, t...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT t1.id, t...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:35:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:50
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(50): PDOStatement->execute(Array)
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(48): MySQLDB->select('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 50
+[21-Mar-2024 15:35:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:50
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(50): PDOStatement->execute(Array)
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(47): MySQLDB->select('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 50
+[21-Mar-2024 15:35:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:50
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(50): PDOStatement->execute(Array)
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(47): MySQLDB->select('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 50
+[21-Mar-2024 15:36:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:50
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(50): PDOStatement->execute(Array)
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(47): MySQLDB->select('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 50
+[21-Mar-2024 15:36:14 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:36:14 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:41:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:50
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(50): PDOStatement->execute(Array)
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(47): MySQLDB->select('SELECT t1.id, t...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 50
+[21-Mar-2024 15:41:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:50
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(50): PDOStatement->execute(Array)
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(47): MySQLDB->select('SELECT t1.id, t...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 50
+[21-Mar-2024 15:42:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:50
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(50): PDOStatement->execute(Array)
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(47): MySQLDB->select('SELECT t1.id, t...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 50
+[21-Mar-2024 15:42:34 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:42:34 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:42:36 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:42:36 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:42:38 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:42:38 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:42:42 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:42:42 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:42:46 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 50
+[21-Mar-2024 15:42:48 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 50
+[21-Mar-2024 15:42:57 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:42:57 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:43:00 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:43:00 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:43:04 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:43:04 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:43:06 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:43:06 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:43:24 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:43:24 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 49
+[21-Mar-2024 15:44:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't2.trajanje > CURRENT_TIMESTAMP' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT t1.id, t...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT t1.id, t...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:44:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't2.trajanje > CURRENT_TIMESTAMP' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT t1.id, t...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT t1.id, t...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:44:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't2.trajanje > CURRENT_TIMESTAMP' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT t1.id, t...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT t1.id, t...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:44:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't2.trajanje > CURRENT_TIMESTAMP' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT t1.id, t...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT t1.id, t...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:44:35 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 29
+[21-Mar-2024 15:44:35 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 29
+[21-Mar-2024 15:44:36 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 29
+[21-Mar-2024 15:44:36 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 29
+[21-Mar-2024 15:44:42 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 29
+[21-Mar-2024 15:44:42 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 29
+[21-Mar-2024 15:45:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND t2.trajanje > CURRENT_TIMESTAMP WHERE t1.aktivan = 1 AND t2.prostorija IS NU' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT t1.id, t...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT t1.id, t...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 15:45:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND t2.trajanje > CURRENT_TIMESTAMP WHERE t1.aktivan = 1 AND t2.prostorija IS NU' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:48
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(48): PDO->prepare('SELECT t1.id, t...')
+#1 /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php(27): MySQLDB->select('SELECT t1.id, t...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 48
+[21-Mar-2024 17:18:48 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:18:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:18:51 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:18:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:22 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:24 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:26 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:27 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:27 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:28 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:28 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:29 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:30 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:30 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:47 UTC] PHP Warning:  Undefined variable $db in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 17:19:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /home/tsckeu/public_html/kontrolaulaza/prostorije.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/prostorije.php on line 29
+[21-Mar-2024 18:15:01 UTC] PHP Parse error:  syntax error, unexpected token ")" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 17
+[21-Mar-2024 18:15:04 UTC] PHP Parse error:  syntax error, unexpected token ")" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 17
+[21-Mar-2024 18:15:05 UTC] PHP Parse error:  syntax error, unexpected token ")" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 17
+[21-Mar-2024 18:15:09 UTC] PHP Parse error:  syntax error, unexpected token ")" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 17
+[21-Mar-2024 18:33:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM pristup_dozvole WHERE korisnik = ? AND prostorija = ? SET aktivno = 0' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:89
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(89): PDO->prepare('UPDATE FROM pri...')
+#1 /home/tsckeu/public_html/kontrolaulaza/admin.php(60): MySQLDB->delete('UPDATE FROM pri...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 89
+[21-Mar-2024 18:33:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM pristup_dozvole WHERE korisnik = ? AND prostorija = ? SET aktivno = 0' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:89
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(89): PDO->prepare('UPDATE FROM pri...')
+#1 /home/tsckeu/public_html/kontrolaulaza/admin.php(60): MySQLDB->delete('UPDATE FROM pri...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 89
+[21-Mar-2024 18:33:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM pristup_dozvole WHERE korisnik = ? AND prostorija = ? SET aktivan = 0' at line 1 in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:89
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(89): PDO->prepare('UPDATE FROM pri...')
+#1 /home/tsckeu/public_html/kontrolaulaza/admin.php(60): MySQLDB->delete('UPDATE FROM pri...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 89
+[21-Mar-2024 18:35:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'aktivan' in 'field list' in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:89
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(89): PDO->prepare('UPDATE pristup_...')
+#1 /home/tsckeu/public_html/kontrolaulaza/admin.php(60): MySQLDB->delete('UPDATE pristup_...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 89
+[21-Mar-2024 18:35:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'aktivan' in 'field list' in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php:89
+Stack trace:
+#0 /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php(89): PDO->prepare('UPDATE pristup_...')
+#1 /home/tsckeu/public_html/kontrolaulaza/admin.php(60): MySQLDB->delete('UPDATE pristup_...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/kontrolaulaza/includes/connection/connection.php on line 89
+[21-Mar-2024 18:38:41 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 35
+[21-Mar-2024 18:38:41 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 35
+[21-Mar-2024 18:38:44 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 35
+[21-Mar-2024 18:38:44 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 35
+[21-Mar-2024 18:39:23 UTC] PHP Warning:  Undefined array key "result" in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 35
+[21-Mar-2024 18:39:23 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tsckeu/public_html/kontrolaulaza/modal-dragndrop.php on line 35

@@ -1,0 +1,130 @@
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
+Node je rekao: {"Stanje_vrata" : 0, "tajni_key" : "Ja_sam_mali_cvor_K30"}
