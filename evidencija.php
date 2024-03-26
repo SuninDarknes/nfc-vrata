@@ -20,16 +20,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $naziv = $_POST["naziv"];
         $sati = $_POST['sati'];
         $minute = $_POST['minute'];
-        $sekunde = $_POST['sekunde'];
-
-        if ($minute >= 60) {
-            $minute = 0;
-            $sati++;
-        }
-        if ($sekunde >= 60) {
-            $sekunde = 0;
-            $minute++;
-        }
 
         $vrijemeotvorenosti = sprintf('%02d:%02d:00', $sati, $minute);
 
@@ -56,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Admin</title>
+    <title>Evidencija</title>
 
     <link rel="stylesheet" href="includes/style/index.css">
     <link rel="stylesheet" href="includes/style/dragndrop.css">
@@ -141,7 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
 
             <div class="col-md-3 mx-auto">
-                <a href="/kontrolaulaza/evidencija.php" class="card-link text-decoration-none">
+                <a href="/kontrolaulaza/admin.php" class="card-link text-decoration-none">
                     <div class="card bg-white rounded shadow p-2 h-100">
                         <div class="card-body">
                             <div class="row align-items-center text-center">
@@ -163,104 +153,68 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
         <div class="row mt-4">
-            <div class="col-md-6 mb-2">
-                <div class="card card bg-white rounded shadow p-2">
-                    <div class="card-body ">
-                        <form method="post">
-                            <div class="form-group mb-3">
-                                <label class="form-label">Naziv prostorije</label> <!-- Upis naziva prostorije -->
-                                <input placeholder="31 Lab" type="input" class="form-control" id="naziv" name="naziv" required>
-                            </div>
-                            <div class="form-group mb-3">
-                                <label class="form-label">Vrijeme otvorenosti prostorije </label><br>
 
-                                <div class="row">
-                                    <div class="col-md-2 mb-2 me-4"> <!-- Upis sati -->
-                                        <input class="form-control mb-1" style="width: 120px;" type="number" id="sati" name="sati" min="0" max="24" placeholder="Sati">
-                                    </div>
-
-                                    <div class="col-md-2 mb-2 me-4"> <!-- Upis minuta -->
-                                        <input class="form-control" style="width: 120px;" type="number" id="minute" name="minute" min="0" max="60" placeholder="Minute">
-                                    </div>
-
-                                    <div class="col-md-2 mb-2"> <!-- Upis sekunda -->
-                                        <input class="form-control" style="width: 120px;" type="number" id="sekunde" name="sekunde" min="0" max="60" placeholder="Sekunde" required>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <br>
-                            <button name="upisiProstoriju" type="submit" class="btn btn-info text-white w-100">Potvrdi</button>
-                        </form>
-
-                    </div>
-                </div>
-            </div>
 
             <div class="col-md-6 mb-2">
                 <div class="card card bg-white rounded shadow p-2">
                     <div class="card-body ">
                         <div id="prostorijaTableContainer" style="display: block; max-height: 50vh; overflow: auto; position: relative;">
                             <?php
-                            $result = $db->select("SELECT * FROM pristup_prostorija WHERE aktivan = 1");
+                            $query = "
+                            SELECT 
+                                pristup_evidencija.id,
+                                pristup_korisnik.ime, 
+                                pristup_korisnik.prezime, 
+                                pristup_prostorija.naziv AS prostorija, 
+                                pristup_evidencija.vrijeme 
+                            FROM 
+                                pristup_evidencija 
+                            JOIN 
+                                pristup_korisnik ON pristup_evidencija.korisnik = pristup_korisnik.id 
+                            JOIN 
+                                pristup_prostorija ON pristup_evidencija.prostorija = pristup_prostorija.id
+                        ";
+                            $result = $db->select($query);
                             if ($result["row_count"] > 0) : ?>
                                 <table class="table table-striped">
                                     <thead>
                                         <tr>
-                                            <th>ID</th>
-                                            <th>Naziv</th>
-                                            <th>Vrijeme otvorenosti</th>
+                                            <th>Ime</th>
+                                            <th>Prezime</th>
+                                            <th>Naziv prostorije</th>
+                                            <th>Vrijeme ulaska</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <?php foreach ($result['result'] as $row) :
-                                            $id = $row["id"];
-                                            $naziv = $row["naziv"];
-                                            $vrijeme = $row["vrijemeotvorenosti"];
+                                            $id= $row["id"];
+                                            $ime = $row["ime"];
+                                            $prezime = $row["prezime"];
+                                            $prostorija = $row["prostorija"];
+                                            $vrijeme = $row['vrijeme'];
 
                                         ?>
                                             <tr>
                                                 <td>
-                                                    <?php echo $id ?>
+                                                    <?php echo $ime ?>
                                                 </td>
                                                 <td>
-                                                    <?php echo $naziv ?>
+                                                    <?php echo $prezime ?>
+                                                </td>
+                                                <td>
+                                                    <?php echo $prostorija ?>
                                                 </td>
                                                 <td>
                                                     <?php echo $vrijeme ?>
                                                 </td>
-                                                <td><button class="btn btn-danger p-1" data-bs-toggle='modal' data-bs-target='#izbrisiProstoriju<?php echo $id ?>' value="<?php echo $row['naziv'] ?>">
+                                                <td><button class="btn btn-danger p-1" data-bs-toggle='modal' data-bs-target='#izbrisiProstoriju<?php echo $id ?>' value="<?php echo  $id ?>">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-x" viewBox="0 0 16 16">
                                                             <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
                                                         </svg>
                                                     </button></td>
                                             </tr>
 
-                                            <!-- Modal za brisanje prostorija -->
-                                            <div class="modal fade" id="izbrisiProstoriju<?php echo $id ?>" tabindex="-1" aria-labelledby="izbrisiProstoriju" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-content">
-                                                        <form method="post">
-                                                            <div class="modal-header">
-                                                                <h5 class="modal-title" id="izbrisiProstoriju">Brisanje prostorije "<?php echo $naziv ?>"</h5>
-                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                            </div>
-                                                            <div class="modal-body">
-                                                                <p>Jeste li sigurni da želite obrisatu prostoriju ?</p>
-                                                                <input type="hidden" name="id" value="<?php echo $id ?>">
-                                                                <input type="hidden" name="naziv" value="<?php echo $naziv ?>">
-                                                            </div>
 
-                                                            <div class="modal-footer">
-                                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
-                                                                <button name="izbrisiProstoriju" type="submit" class="btn btn-info text-white">Izbriši</button>
-                                                            </div>
-
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </div>
 
                                         <?php endforeach; ?>
                                     <?php else : ?>
@@ -280,6 +234,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <script src="includes/js/drag.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 
+    <!-- Modal za brisanje prostorija -->
+    <div class="modal fade" id="izbrisiProstoriju<?php echo $id ?>" tabindex="-1" aria-labelledby="izbrisiProstoriju" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form method="post">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="izbrisiProstoriju">Brisanje prostorije "<?php echo $naziv ?>"</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Jeste li sigurni da želite obrisatu prostoriju ?</p>
+                        <input type="hidden" name="id" value="<?php echo $id ?>">
+                        <input type="hidden" name="naziv" value="<?php echo $naziv ?>">
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
+                        <button name="izbrisiProstoriju" type="submit" class="btn btn-info text-white">Izbriši</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
 
 </body>
 

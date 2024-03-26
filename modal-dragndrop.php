@@ -19,7 +19,7 @@ if (isset ($_SESSION['korisnik'])) {
     <input type="hidden" name="UserID" value="<?php echo $_GET["id"]; ?>">
     <ul class="drag-list">
 
-        <li class="drag-column drag-column-on-hold">
+        <li class="drag-column drag-column-on-hold card bg-white rounded shadow">
             <span class="drag-column-header">
                 <h2>Prostorije</h2>
             </span>
@@ -44,7 +44,7 @@ if (isset ($_SESSION['korisnik'])) {
 
             </ul>
         </li>
-        <li class="drag-column drag-column-approved ">
+        <li class="drag-column drag-column-approved card bg-white rounded shadow ">
             <span class="drag-column-header ">
                 <h2>Dozvoljene prostorije</h2>
             </span>

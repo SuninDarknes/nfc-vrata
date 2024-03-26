@@ -1,3 +1,20 @@
+<?php
+include_once "includes/connection/connection.php";
+$db = new MySQLDB();
+
+session_start();
+
+if (isset($_SESSION['korisnik'])) {
+    if ($_SESSION['korisnik']['admin'] == 0) {
+        header("Location: korisnik.php");
+        exit;
+    }
+} else {
+    header('Location: prijava.php');
+    exit;
+}
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -9,14 +26,15 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
 </head>
 
 <body style="background-color: #f3f3f3;">
     <div class="d-flex justify-content-center align-items-center vh-100">
         <div class="container-fluid text-center">
             <div class="row">
-
-                <div class="col d-flex justify-content-center align-items-center mb-3">
+            
+                <div class="col-sm-4 d-flex justify-content-center align-items-center">
                     <a href="/kontrolaulaza/admin.php" class="card-link text-decoration-none">
                         <div class="card border-light mb-3 shadow" style="width: 30rem; height: 40rem;">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -31,8 +49,8 @@
                     </a>
                 </div>
 
-                <div class="col d-flex justify-content-center align-items-center mb-3">
-                    <a href="/kontrolaulaza/admin.php" class="card-link text-decoration-none">
+                <div class="col-sm-4 d-flex justify-content-center align-items-center">
+                    <a href="/kontrolaulaza/prostorije.php" class="card-link text-decoration-none">
                         <div class="card border-light mb-3 shadow" style="width: 30rem; height: 40rem;">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <h1>Prostorije</h1>
@@ -48,7 +66,7 @@
                     </a>
                 </div>
 
-                <div class="col d-flex justify-content-center align-items-center mb-3">
+                <div class="col-sm-4 d-flex justify-content-center align-items-center">
                     <a href="/kontrolaulaza/admin.php" class="card-link text-decoration-none">
                         <div class="card border-light mb-3 shadow" style="width: 30rem; height: 40rem;">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">

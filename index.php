@@ -9,7 +9,8 @@ session_start();
 if (isset($_SESSION['korisnik'])) {
 
     if (isset($_GET['prostorija'])){
-        echo var_dump($_GET);
+        $_SESSION['prostorija'] = $_GET['prostorija'];
+        header("Location: otvori.php");
         exit;
     }
 
@@ -50,10 +51,6 @@ if (isset($_SESSION['korisnik'])) {
 </head>
 
 <body style="background-color: #f3f3f3;">
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 
