@@ -13,10 +13,11 @@ String serverName = "https://tsck.eu/kontrolaulaza/cvor.php";
 
 unsigned long lastTime = 0;
 
-unsigned long timerDelay = 2000; //update rate 1 min
+unsigned long timerDelay = 15000; //update rate 15sek
 
 void setup() {
    Serial.begin(115200);
+   pinMode(23,OUTPUT);
    WiFi.begin(ssid, password);
    Serial.println("Connecting");
    while(WiFi.status() != WL_CONNECTED) {
@@ -50,6 +51,14 @@ void loop() {
          Serial.println(httpResponseCode);
          String payload = http.getString();
          Serial.println(payload);
+         if(payload == "dobar dan"){
+           //Serial.println("radi");
+           digitalWrite(23, HIGH);
+           delay(10000);
+           digitalWrite(23, LOW);
+         }else{
+           //Serial.println("ne radi");
+         }
        }
        else {
          Serial.print("Error code: ");
