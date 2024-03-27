@@ -6,6 +6,7 @@
 const char* ssid = "K30";
 const char* password = "paprika123";
 String tajni_key = "Ja_sam_mali_cvor_K30";
+String  prostorija = "40";
 
 String serverName = "https://tsck.eu/kontrolaulaza/cvor.php";
 
@@ -13,7 +14,7 @@ String serverName = "https://tsck.eu/kontrolaulaza/cvor.php";
 
 unsigned long lastTime = 0;
 
-unsigned long timerDelay = 15000; //update rate 15sek
+unsigned long timerDelay = 2000; //update rate 15sek
 
 void setup() {
    Serial.begin(115200);
@@ -42,7 +43,7 @@ void loop() {
 
         bool stanje = 0;
   
-        String jsonData = "{\"Stanje_vrata\" : " + String(stanje) + ", \"tajni_key\" : \"" + tajni_key + "\"}";
+        String jsonData = "{\"Stanje_vrata\" : " + String(stanje) + ", \"tajni_key\" : \"" + tajni_key + "\", \"prostorija\" : \"" + prostorija + "\"}";
 
        int httpResponseCode = http.POST(jsonData.c_str());
 
